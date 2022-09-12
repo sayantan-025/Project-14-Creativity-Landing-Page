@@ -6,7 +6,7 @@
 
 ### Website Image
 
-![website img](./screenshot/project%209.png)
+![website img](./screenshot/poster.png)
 
 ---
 
@@ -18,4 +18,4 @@
 
 - Practice a lot more in positioning
 
-## This project took around 8.5 hours to complete.
+## This project took around 8.5 hours to complete and 7 hours to responsive.

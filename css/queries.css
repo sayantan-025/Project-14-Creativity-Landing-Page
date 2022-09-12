@@ -1,0 +1,264 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+	html {
+		/* 9px / 16px  */
+		font-size: 56.25%;
+	}
+
+	.line {
+		display: none;
+	}
+
+	.navbar {
+		justify-content: flex-end;
+	}
+
+	.solid {
+		font-size: 11rem;
+	}
+
+	.border {
+		font-size: 11rem;
+	}
+
+	.coma p {
+		font-size: 1.6rem;
+	}
+
+	.bottom-img img {
+		width: 35rem;
+	}
+
+	.line-2 {
+		margin-left: 13rem;
+		height: 33rem;
+	}
+
+	.whole-content {
+		position: absolute;
+		left: 81px;
+		top: -10px;
+	}
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+	html {
+		/* 9px / 16px  */
+		font-size: 56.25%;
+	}
+
+	.container-img img {
+		height: 65rem;
+		width: 40rem;
+		object-fit: cover;
+	}
+
+	.section-1 {
+		grid-template-columns: 42rem 1fr 1fr;
+		column-gap: 2rem;
+	}
+
+	.border {
+		font-size: 9rem;
+	}
+
+	.solid {
+		font-size: 9rem;
+	}
+
+	.text-2 {
+		font-size: 2rem;
+		justify-self: start;
+	}
+
+	.icons {
+		gap: 3.2rem;
+	}
+
+	.button {
+		grid-template-columns: 42rem 1fr 1fr;
+		column-gap: 2rem;
+	}
+
+	.button button {
+		font-size: 1.6rem;
+		padding: 1.8rem 0;
+	}
+
+	.buttom-section {
+		grid-template-columns: 2.5fr 3.5fr 0.5fr;
+		gap: 2rem;
+	}
+
+	.line-2 {
+		height: 26.5rem;
+	}
+
+	.bottom-img img {
+		width: 33rem;
+	}
+
+	.arrow img {
+		height: 10rem;
+		width: 3rem;
+	}
+
+	.para p {
+		font-size: 1.6rem;
+	}
+
+	.coma p {
+		font-size: 1.5rem;
+	}
+
+	.whole-content {
+		position: absolute;
+		left: 0;
+		top: -10px;
+	}
+
+	.line-2 {
+		margin-left: 4rem;
+		height: 26rem;
+	}
+}
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+	html {
+		/* 8px / 16px = 0.5 = 50% */
+		font-size: 50%;
+	}
+
+	.container-img {
+		z-index: -5;
+	}
+
+	.container-img img {
+		height: 100vh;
+		width: 75%;
+		object-fit: cover;
+	}
+
+	.border {
+		font-size: 7.4rem;
+	}
+
+	.solid {
+		font-size: 7.4rem;
+	}
+
+	.section-1 {
+		grid-template-columns: 42rem 1fr;
+	}
+
+	.icons {
+		grid-column: 2/4;
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		gap: 4.8rem;
+		margin-top: 4.8rem;
+	}
+
+	.icons img {
+		height: 2.4rem;
+		width: 2.4rem;
+	}
+
+	.buttom-section {
+		grid-template-columns: 1fr 3fr 0.5fr;
+	}
+
+	.button button {
+		grid-column: 1/2;
+		justify-self: end;
+		padding: 1.6rem 2.4rem;
+	}
+
+	.line-2 {
+		display: none;
+	}
+
+	.whole-content {
+		display: none;
+	}
+
+	.coma p {
+		font-size: 1.8rem;
+	}
+
+	.bottom-img img {
+		width: 40rem;
+	}
+}
+
+/**************************/
+/* BELOW 864px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 54em) {
+	.container-img img {
+		height: 55vh;
+		width: 37rem;
+
+		object-fit: cover;
+	}
+
+	.list {
+		display: none;
+	}
+
+	.buttom-section {
+		margin-top: 15rem;
+		margin-left: -20rem;
+	}
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+@media (max-width: 44em) {
+	html {
+		font-size: 40%;
+	}
+
+	.buttom-section {
+		margin-top: 25rem;
+	}
+}
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/
+
+@media (max-width: 34em) {
+	html {
+		font-size: 35%;
+	}
+
+	.buttom-section {
+		margin-top: 50rem;
+	}
+}
+
+/* 
+  - Font sizes (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  
+  - Spacing system (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  */
